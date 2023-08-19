@@ -1,0 +1,45 @@
+#outerdiv{
+    height: 385px;
+    width: 200px; 
+    background-color: aquamarine; 
+    border: 2px solid black;
+} 
+#inerdiv1{   
+    color: blue;
+    margin-top: 18px; 
+    margin-left: 50px; 
+    text-align: center;
+    height: 100px;
+    width: 100px; 
+    border: 2px solid black;  
+    border-radius: 50px; 
+} 
+#inerdiv2{ 
+    color: blue;
+    margin-top: 18px; 
+    margin-left: 50px; 
+    text-align: center;
+    height: 100px;
+    width: 100px; 
+    border: 2px solid black;  
+    border-radius: 50px; 
+} 
+#inerdiv3{ 
+    color: blue;
+    margin-top: 18px; 
+    margin-left: 50px; 
+    text-align: center;
+    height: 100px;
+    width: 100px; 
+    border: 2px solid black;  
+    border-radius: 50px;  
+} 
+#c1{
+    margin-top: 39px;   
+} 
+#c2{
+    margin-top: 39px;   
+} 
+#c3{
+    margin-top: 39px;   
+}
