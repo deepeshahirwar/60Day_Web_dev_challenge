@@ -1,0 +1,20 @@
+ /* learn about border and margin */
+ div{ 
+    height: 100px; 
+    width: 100px; 
+    background-color: aquamarine;
+border-color: black; 
+border: 2px solid brown ; 
+text-align: right; 
+border-radius: 15px;
+} 
+#div4{
+    height: 100px; 
+    width: 100px; 
+    background-color: aquamarine;
+border-color: black; 
+border: 2px solid brown ; 
+text-align: center; 
+border-radius: 50px;  
+margin-left: 300px; 
+} 
