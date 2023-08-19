@@ -1,0 +1,38 @@
+ body{
+    color: rgb(81, 143, 197);
+ }
+ #one{
+ font-size: 25px; 
+  line-height: 36px;  
+
+} 
+#two{ 
+    /* text-transform: lowercase; 
+    font-size: 20px;
+font-family: 'Courier New', Courier, monospace; */ 
+padding: 1rem;
+width: 420px;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+  0 5px 15px 0 rgba(0,0,0,0.08);
+background-color: #ffffff;
+border-radius: 0.5rem;
+
+border-left: 0 solid #00ff99;
+transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+
+}  
+#four{
+    padding: 2rem;  
+    width: 420px; 
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+  0 5px 15px 0 rgba(0,0,0,0.08);  
+} 
+#three{
+    text-transform: capitalize; 
+    font-family: 'Courier New', Courier, monospace;
+} 
+#hading{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    border-style: hading;
+}
