@@ -1,38 +1,63 @@
- body{
-    color: rgb(81, 143, 197);
- }
- #one{
- font-size: 25px; 
-  line-height: 36px;  
+* {
+    padding: 0;
+    margin: 0;
+}
 
-} 
-#two{ 
-    /* text-transform: lowercase; 
-    font-size: 20px;
-font-family: 'Courier New', Courier, monospace; */ 
-padding: 1rem;
-width: 420px;
-box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
-  0 5px 15px 0 rgba(0,0,0,0.08);
-background-color: #ffffff;
-border-radius: 0.5rem;
+.main { 
+    margin-top: 10px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    justify-content: space-evenly 
+}
 
-border-left: 0 solid #00ff99;
-transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+.box1 {
+    height: 300px;
+    width: 40%;
+    background-color: chartreuse; 
 
+}
+
+.box2 {
+    height: 300px;
+    width: 40%;
+    background-color: rgb(230, 148, 186);
+    font-size: 25px; 
+   
 }  
-#four{
-    padding: 2rem;  
-    width: 420px; 
-    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
-  0 5px 15px 0 rgba(0,0,0,0.08);  
+ 
+button{
+    margin-top: 80px; 
+    margin-left: 46%; 
+    height: 40px; 
+    width:100px; 
+    font-style: italic; 
+    font-weight: 700; 
+    font-size: 20; 
+    background-color:chartreuse;  
+    border-radius: 5px;
+
 } 
-#three{
-    text-transform: capitalize; 
-    font-family: 'Courier New', Courier, monospace;
-} 
-#hading{
-    text-align: center; 
-    font-family: 'Courier New', Courier, monospace; 
-    border-style: hading;
+ 
+.name h1{
+    margin-top: 40px; 
+    margin-left: 10px;  
+    border-bottom:  thin solid rgb(230, 79, 79);
+    /* border-bottom:1px solid black ;  */
+    background-color: antiquewhite; 
+    width: 45%;
+}
+@media (max-width:600px) {
+    .box2{
+        background-color: aqua; 
+        margin-top: 10px;
+    }  
+    .main{
+        flex-direction: column;
+    } 
+    .box1 h1{
+        font-family: Arial, Helvetica, sans-serif; 
+        color: cornflowerblue;
+    }
+
 }
