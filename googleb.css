@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+.main1{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;  
+    flex-wrap: wrap;
+}
+
+.main2 {
+     
+    margin-top: 3rem;
+    height: 15rem;
+    width: 45rem;
+    border: 3px red;
+    background: #000;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+} 
+img{
+  margin-top: 2rem; 
+}
+
+.button1 button {
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial;
+    background: rgb(26, 115, 232);
+    border: none;
+}
+
+.button2 button {
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial;
+    background: rgb(219, 68, 55);
+    border: none;
+}
+
+.button3 button {
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial;
+    background: rgb(242, 178, 0);
+    border: none;
+}
+
+.button4 button {
+    height: 3rem;
+    width: 9rem;
+    background: rgb(15, 157, 88);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial;
+    border: none;
+} 
+ 
+/* for responsive */
+@media only screen  and (min-width: 300px) and (max-width: 767px) { 
+  /* .main1{
+  width: 100%;
+  } */
+    .main2 {
+       width: 96%;
+       flex-direction: column; 
+       margin: 2%; 
+
+    }  
+    img{
+        width: 10rem;
+    } 
+
+   
+}
