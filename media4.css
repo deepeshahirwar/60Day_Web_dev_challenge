@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}  
+.inner{
+    width: 1170px;
+    margin: auto; 
+    border: 1px solid red; 
+    text-align: center;
+} 
+.img1{
+    width: 23%; 
+    margin: 1%; 
+    float: left;
+    background:#ccc;
+}  
+.img1 img{
+    width: 100%;
+}
+.clear{
+    clear: both;
+}  
+/* for Responsive mobles*/ 
+@media only screen and (min-width:250px) and (max-width:567px){
+    .inner{
+        width: 100%;
+           
+    }  
+    .img1{
+        width: 96%;
+        margin: 2%;
+    } 
+}  
+/* for Responsive tablates*/ 
+@media only screen and (min-width:600px) and (max-width:768px){
+    .inner{
+        width: 100%;      
+    }  
+    .img1{
+        width: 48%;
+        margin: 1%;
+    } 
+}
